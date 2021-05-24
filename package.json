@@ -9,7 +9,7 @@
     "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
-    "clean" : "gh-pages-clean"
+    "clean": "gh-pages-clean"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
+    "lodash.debounce": "^4.0.8",
     "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
