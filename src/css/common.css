@@ -7,13 +7,14 @@
 body {
   margin: 0;
   padding: 60px 20px 20px 20px;
-  font-family: 'Orbitron', sans-serif;
-  background-color: #79abcd;
+  font-family: 'Limelight', cursive;
+  height: 650px;
   font-size: 30px;
-  color: #78d5c1;
+  color: #52c595bd;
   text-align: center;
   text-shadow: 2px 2px 5px black;
   background: linear-gradient(45deg, #9890e3, #b1f4cf);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -44,7 +45,7 @@ li {
 
 .js-card-container {
   text-align: left;
-  background-color: rgba(208, 228, 189, 0.582);
+  color: blanchedalmond;
   margin-left: 200px;
   margin-right: 200px;
 }
