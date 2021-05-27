@@ -1,7 +1,7 @@
 import "./css/common.css";
 import countriesListMarkup from "./temp/countries-list.hbs";
 import countryMarkup from "./temp/countries-markup.hbs";
-import API from './js/fetchCountries';
+import API from './fetchCountries';
 import debounce from 'lodash.debounce';
 import { info, error } from '@pnotify/core';
 import '@pnotify/core/dist/PNotify.css';
