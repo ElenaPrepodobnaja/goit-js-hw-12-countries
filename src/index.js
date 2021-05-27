@@ -26,8 +26,8 @@ function onSearch() {
 
 }
 
-function renderCountryCard(template, country) {
-    const markup = template(country);
+function renderCountryCard(template, name) {
+    const markup = template(name);
     cardContainer.insertAdjacentHTML('beforeend', markup);
 
 };
